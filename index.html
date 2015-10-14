@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Prova Jessica</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="asset/css/style.css" />
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+</head>
+<body>
+
+<section class="container">
+	<form class="form" method="POST">
+		<fieldset>
+			<legend>Salary Paycheck Calculator</legend>
+			<label>
+				Salary
+				<input id="salary" type="text" required="required" />
+			</label>
+			<label>
+				INSS
+				<input id="inss" type="text"/>
+			</label>
+			<label>
+				IRPF
+				<input id="irpf" type="text" />
+			</label>
+			<label>
+				Liquid Salary
+				<input id="liquidSalary" type="text"/>
+			</label>
+			<button>Calc</button>
+		</fieldset>
+	</form>
+	<script src="Asset/js/paycheckServices.js"></script>
+	<script src="Asset/js/paycheckController.js"></script>
+</body>
+</html>
